@@ -2,7 +2,8 @@
 Manage docker plugins.
 
 ## Requirements
-[Docker](http://github.com) python module should be installed on target host.
+- [Docker](http://github.com) python module should be installed on target host.
+- *ansible_user* should be in *docker* group or use *become: yes*
 
 ## Install
 The easiest way to install module is to put it in **library/** folder near your playbook.
